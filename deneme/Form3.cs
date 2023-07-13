@@ -10,29 +10,27 @@ using System.Windows.Forms;
 
 namespace deneme
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        Form2 form2 = new Form2();
+        public Form3()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public void onaylaButton_Click(object sender, EventArgs e)
         {
-
+            form2.ShowDialog();
+            this.Close();
+            
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void button1_Click(object sender, EventArgs e)
+        private void iptalButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void anneGroupBox_Enter(object sender, EventArgs e)
         {
 
         }

@@ -12,6 +12,7 @@ namespace deneme
 {
     public partial class Form1 : Form
     {
+        Form3 form3 = new Form3();
         public Form1()
         {
             InitializeComponent();
@@ -47,14 +48,18 @@ namespace deneme
 
         }
 
-        private void kaydetButonu_Click(object sender, EventArgs e)
+        public void kaydetButonu_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
-            this.Hide();
-            form.Show();
+            form3.ShowDialog();
+            this.Close();
         }
 
         private void anneCepTelefonu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void anneSigortaEvet_CheckedChanged(object sender, EventArgs e)
         {
 
         }

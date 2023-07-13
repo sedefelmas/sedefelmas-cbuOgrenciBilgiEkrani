@@ -37,17 +37,18 @@ namespace deneme
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Candara", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(206, 103);
+            this.label1.Location = new System.Drawing.Point(206, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(391, 41);
+            this.label1.Size = new System.Drawing.Size(381, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bilgileriniz kaydedilmiştir.";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.YellowGreen;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(295, 224);
+            this.button1.Location = new System.Drawing.Point(289, 195);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(199, 57);
             this.button1.TabIndex = 1;
@@ -65,6 +66,7 @@ namespace deneme
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

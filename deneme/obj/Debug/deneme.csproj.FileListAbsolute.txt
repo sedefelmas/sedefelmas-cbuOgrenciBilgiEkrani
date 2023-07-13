@@ -9,3 +9,4 @@ C:\Users\YPN-1255\source\repos\deneme\deneme\obj\Debug\deneme.csproj.CoreCompile
 C:\Users\YPN-1255\source\repos\deneme\deneme\obj\Debug\deneme.exe
 C:\Users\YPN-1255\source\repos\deneme\deneme\obj\Debug\deneme.pdb
 C:\Users\YPN-1255\source\repos\deneme\deneme\obj\Debug\deneme.Form2.resources
+C:\Users\YPN-1255\source\repos\deneme\deneme\obj\Debug\deneme.Form3.resources
